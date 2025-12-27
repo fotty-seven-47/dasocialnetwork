@@ -13,10 +13,10 @@ const sharePostButton = document.getElementById("sharepostbtn");
 
 
 // HERE ARE THE DEFAULT CONDITIONS OF THE PAGE WHEN THE PAGE IS FIRST OPENED BY THE USER
-headerOne.style.display = "none";
-headerTwo.style.display = "flex";
-pageOne.style.display = "none";
-pageTwo.style.display = "flex";
+headerOne.style.display = "flex";
+headerTwo.style.display = "none";
+pageOne.style.display = "flex";
+pageTwo.style.display = "none";
 
 // Here is what happens if a user clicks on any button:
 
@@ -65,4 +65,5 @@ sharePostButton.addEventListener('click', function () {
 
     document.getElementById("postmsg").value = "";
   }
+
 })
